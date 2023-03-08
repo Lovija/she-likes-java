@@ -6,8 +6,8 @@ public class Calculator {
         System.out.println("Calculator...");
         System.out.println("Calculating some of two numbers");
         System.out.println("Provide first number: ");
-        int firstNumber;
-        int secondNumber;
+        double firstNumber;
+        double secondNumber;
         //TODO: explain object creation
         Scanner inputReader = new Scanner(System.in);
         firstNumber = inputReader.nextInt();
@@ -15,13 +15,13 @@ public class Calculator {
         System.out.println("Provide second number: ");
         secondNumber = inputReader.nextInt();
         System.out.println("You provided number: " +secondNumber);
-        int sum = firstNumber + secondNumber;
+        double sum = firstNumber + secondNumber;
         System.out.println("Sum is: " + sum);
 
-        int difference = firstNumber - secondNumber;
+        double difference = firstNumber - secondNumber;
         System.out.println("Difference is: " + difference);
 
-        int product = firstNumber * secondNumber;
+        double product = firstNumber * secondNumber;
         System.out.println("Product is: " + product);
 
         double quotient = firstNumber / secondNumber;
