@@ -17,16 +17,17 @@ public class Calculator {
         System.out.println("Provide second number: ");
         secondNumber = inputReader.nextInt();
         System.out.println("You provided number: " +secondNumber);
+        //\n adds new line between, how many that have, so many lines it puts between
         double sum = firstNumber + secondNumber;
-        System.out.println("Sum is: " + sum);
+        System.out.println("\nSum is: " + sum);
 
         double difference = firstNumber - secondNumber;
-        System.out.println("Difference is: " + difference);
+        System.out.println("\nDifference is: " + difference);
 
         double product = firstNumber * secondNumber;
-        System.out.println("Product is: " + product);
+        System.out.println("\nProduct is: " + product);
 
         double quotient = firstNumber / secondNumber;
-        System.out.println("Quotient is: " + quotient);
+        System.out.println("\nQuotient is: " + quotient);
     }
 }
