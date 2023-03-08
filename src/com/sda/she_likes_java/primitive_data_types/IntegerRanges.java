@@ -1,6 +1,4 @@
-package com.sda.she_likes_java.numbers;
-
-import java.sql.SQLOutput;
+package com.sda.she_likes_java.primitive_data_types;
 
 public class IntegerRanges {
     public static void main(String[] args) {
