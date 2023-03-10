@@ -12,9 +12,9 @@ public class Main {
 // needs type of variable
 // that data type limit possible set of allowed values
 // int - integer numbers
-int myDaughterAge = 6;
+        int myDaughterAge = 6;
 //assingnig new value
-myDaughterAge = 8;
+        myDaughterAge = 8;
 //sout - enter shortcut for System.out.println
         //string type is for words and letters
         System.out.println(myDaughterAge);
@@ -48,15 +48,15 @@ myDaughterAge = 8;
         int product = 5 * 8;
         System.out.println("Product of 5 and 8 is: " + product);
 
-        double quotient = 5.0/8.5;
+        double quotient = 5.0 / 8.5;
         System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
 
-            System.out.println("Reminder");
-            int result = 9/4;
-            System.out.println("result is: " + result);
+        System.out.println("Reminder");
+        int result = 9 / 4;
+        System.out.println("result is: " + result);
 //modulo operator - remainder operator: 9/4=2 and 1 remains (2*4=8; 9-8=1)
-            result = 9%4;
-            System.out.println("and now result is: " + result);
+        result = 9 % 4;
+        System.out.println("and now result is: " + result);
 
     }
 }

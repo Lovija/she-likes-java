@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculator_second {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("com.sda.she_likes_java.homework.Calculator...");
         System.out.println("Calculating sum of two numbers");
         System.out.println("Provide first number: ");
@@ -52,5 +52,5 @@ public static void main(String[] args) {
         System.out.println("You provided number: " + secondNumber);
         int quotient = firstNumber / secondNumber;
         System.out.println("Quotient is: " + quotient);
-        }
-        }
+    }
+}
