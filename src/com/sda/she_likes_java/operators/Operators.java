@@ -40,6 +40,12 @@ public class Operators {
         secondValue = !firstValue;
         System.out.println("!true is: "+secondValue);
 
+        boolean polite = false;
+        if (!polite){
+            System.out.println("You`re not polite, or just naughty");
+        }
+
+
     }
     // comparing some value>=18, negation for all !(value>=18)
 }
