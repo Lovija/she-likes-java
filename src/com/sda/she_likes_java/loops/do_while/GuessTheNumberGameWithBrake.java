@@ -10,23 +10,30 @@ public class GuessTheNumberGameWithBrake {
         //when you write number in brackets nextInt, then shows name bound
         int someRandomNumber = numberGenerator.nextInt(20);
         int numberOfTrials = 4;
-        int userAnswer;
+
        //System.out.println("Random number provided by java is: "+someRandomNumber);
         //generate one more number and user needs to
         Scanner inputReader = new Scanner(System.in);
+        int userAnswer;
         System.out.println("Play game with me");
 
         do  {
-            if (numberOfTrials <=0 ){
-                break;
-            }
+
             System.out.println("Guess a number between 1 and 20");
             userAnswer =inputReader.nextInt();
             numberOfTrials--;
+            if (numberOfTrials <=0 ){
+                System.out.println("Sorry, no more trials.");
+                break;
+            }
         }
         while (userAnswer!=someRandomNumber);
         //!= means different
-
-        System.out.println("Great, You guessed it! :)");
+        if (userAnswer == someRandomNumber) {
+            System.out.println("Great, You guessed it! :)");
+        }
+        else {
+            System.out.println("You`ve lost! :)");
+        }
     }
 }
