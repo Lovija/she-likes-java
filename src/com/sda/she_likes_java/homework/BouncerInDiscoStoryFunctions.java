@@ -37,6 +37,7 @@ public class BouncerInDiscoStoryFunctions {
             }
         }
     }
+    //first line is function prototype
 
     public static boolean checkedByYoungBouncer(int age, double height, boolean isAbleToSingWell) {
         return age >= 18 && height > 1.55 && isAbleToSingWell == true;
