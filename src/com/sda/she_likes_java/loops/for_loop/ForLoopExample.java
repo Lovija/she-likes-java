@@ -15,7 +15,8 @@ public class ForLoopExample {
         int number  = 0;
         while (number<100) {
             System.out.println("Number value is: "+number);
-            number++;
+            number++;// if this line we put before sout, than it will print out number from 1 till 100. now it prints number from 0 till 99
+
         }
     }
 }
