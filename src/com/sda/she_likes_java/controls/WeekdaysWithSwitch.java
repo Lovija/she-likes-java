@@ -14,7 +14,7 @@ public class WeekdaysWithSwitch {
         switch (ordinalNumberOfWeekday) {
             case 1:
                 System.out.println("It`s monday");
-                break;
+                break;// if we don`t write break after every case, then it will continue to run and print out all the sout
             case 2:
                 System.out.println("It`s tuesday");
                 break;
