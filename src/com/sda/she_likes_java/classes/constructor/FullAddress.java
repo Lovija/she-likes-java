@@ -27,7 +27,7 @@ public class FullAddress {
                 ", postalCode='" + postalCode + '\'' +
                 '}';
     }
-
+// without string it will show random numbers
     public static void main(String[] args) {
         //create your own address
         FullAddress myAddress = new FullAddress();
