@@ -11,5 +11,23 @@ public class HouseExample {
         System.out.println("Currently my house has got "+ myHouse.getNumberOfRoom() + " rooms");
         System.out.println("My new house: "+myHouse);
 
+        //after houseowner class creation
+        System.out.println("=====================");
+        HouseOwner wife = new HouseOwner("Mary", myHouse);//House myHouse = new House(5, 2);assigning this house to wife
+        HouseOwner husband = new HouseOwner("Jack", myHouse);
+
+        System.out.println("Mary would like to repair her house");
+
+        wife.getHouse().setNumberOfBathrooms(3);//House house = wife.getHouse(); house.setNumberOfBathrooms(3)
+        System.out.println("Mary`s house after repair: "+myHouse);
+
+
+        husband.getHouse().setNumberOfBathrooms(1);
+        System.out.println("Jack`s house after repair: "+myHouse);
+
+        System.out.println("Mary: "+wife);
+        System.out.println("Jack: "+husband);
+
+
     }
 }
