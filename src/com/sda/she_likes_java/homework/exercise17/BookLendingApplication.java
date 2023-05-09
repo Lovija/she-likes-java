@@ -15,11 +15,11 @@ public class BookLendingApplication {
         Random random = new Random();
         int numberOfIterations = random.nextInt();
 
-        for (int i =0; 1<numberOfIterations; i++) {
-            new Book("Selma padaleki", "Moonlight","1993");
-            new Book("Jared Hajek", "Sun in the sky", "2003");
-            new Book("Nicole Renolds", "Sunrise in heart", "2023");
-        }
+       // for (int i =0; 1<numberOfIterations; i++) {
+          //  new Book("Selma padaleki", "Moonlight","1993");
+           // new Book("Jared Hajek", "Sun in the sky", "2003");
+          //  new Book("Nicole Renolds", "Sunrise in heart", "2023");
+        //}
     }
     public static Book [] createCopyOfBook(Book bookToCopy){
         Book [] books = new Book[2];
@@ -34,7 +34,7 @@ public class BookLendingApplication {
         int numberOfIterations = random.nextInt(1824);
         Book [] books = new Book [numberOfIterations];
         for (int i =0; 1<numberOfIterations; i++) {
-            books[i] = new Book("Kaira Saule", "Maza zive", "1998");
+            //books[i] = new Book("Kaira Saule", "Maza zive", "1998");
         }
         return books;
     }
