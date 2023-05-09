@@ -1,26 +1,22 @@
 package com.sda.she_likes_java.homework.exercise17;
 
-public class Book {
-    private String author;
-    private String title;
-    private String yearOfPublication;
+import java.time.Year;
 
-    public Book(String author, String title, String yearOfPublication) {
+public class Book {
+    private static int numberOfCreatedBooks;
+    private final String author;
+    private final String title;
+    private final Year yearOfPublication;
+
+    public Book(String author, String title, Year yearOfPublication) {
         this.author = author;
         this.title = title;
         this.yearOfPublication = yearOfPublication;
+        numberOfCreatedBooks++;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getYearOfPublication() {
-        return yearOfPublication;
+    public static int getNumberOfCreatedBooks(){
+        return numberOfCreatedBooks;
     }
 
     @Override
@@ -28,7 +24,17 @@ public class Book {
         return "Book{" +
                 "author='" + author + '\'' +
                 ", title='" + title + '\'' +
-                ", yearOfPublication='" + yearOfPublication + '\'' +
+                ", yearOfPublication=" + yearOfPublication +
                 '}';
     }
+    public String getTitle() {
+        return title;
+    }
+    public String getAuthor(){
+        return author;
+    }
+    public Year getYearOfPublication(){
+        return yearOfPublication;
+    }
+
 }
