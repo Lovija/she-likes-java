@@ -31,24 +31,23 @@ public class Robot {
                 }
                 """;//this ir multi line strings
     }
-
+    private void doInternalTwiks() {
+        System.out.println("Very important stuff");
+    }
     public void moveForward() {
         xPosition++;
         System.out.println("I`m moving forward");
 
     }
-
     public void moveBackwards() {
         yPosition--;
         System.out.println("I`m moving backwards");
 
     }
-
     public void moveToTheLeft() {
         System.out.println("I`m turning left");
 
     }
-
     public void moveToTheRight() {
         System.out.println("I`m turning right");
     }
