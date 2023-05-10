@@ -6,6 +6,6 @@ public class Man extends Human{
         System.out.println("I`m man");
     }
     public void learnToCleanHouse(){
-        System.out.println("I like it");
+        System.out.println("I like to clean house");
     }
 }

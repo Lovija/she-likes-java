@@ -20,8 +20,8 @@ public class Main {
         castedFromHuman.learnJava();
         Man manForSure = new Man();
         Human anotherMan = manForSure;
-        //humanLife.tryToCastHumanToMan(anotherMan);
-        humanLife.tryToCastHumanToMan(new Man());
-        //humanLife.tryToCastHumanToMan(new Woman());
+        humanLife.tryToCastHumanToMan(anotherMan);
+       // humanLife.tryToCastHumanToMan(new Man());
+        humanLife.tryToCastHumanToMan(new Woman());
     }
 }
