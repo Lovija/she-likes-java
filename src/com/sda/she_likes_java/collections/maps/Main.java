@@ -17,11 +17,13 @@ public class Main {
         myJeans.put("my favourite jeans", new Trousers("jeans", "big star"));
         myJeans.put("my old one",new Trousers("unknow material", "primemark"));
         myJeans.put("my old one",new Trousers("cotton material", "primemark"));//this line overwrite the previous one
+        System.out.println(myJeans);
 
 
         Map<Person, Trousers> personsTrousers = new HashMap<>();
         personsTrousers.put(new Person("Mariusz", "Pas"), new Trousers("cotton", "primemark"));
         personsTrousers.put(new Person("Salvis", "Laza"), new Trousers("cotton", "primemark"));
+        System.out.println(personsTrousers);// order of the printed items is not granted how will it  print out
 
 
 
