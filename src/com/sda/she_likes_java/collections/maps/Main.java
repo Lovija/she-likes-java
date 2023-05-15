@@ -18,6 +18,7 @@ public class Main {
         myJeans.put("my old one",new Trousers("unknow material", "primemark"));
         myJeans.put("my old one",new Trousers("cotton material", "primemark"));//this line overwrite the previous one
         System.out.println(myJeans);
+        printMyJeans(myJeans);
 
 
         Map<Person, Trousers> personsTrousers = new HashMap<>();
@@ -26,6 +27,19 @@ public class Main {
         System.out.println(personsTrousers);// order of the printed items is not granted how will it  print out
 
 
+    }
+    public static void printMyJeans(Map<String,Trousers>trousersMap){
+        System.out.println("Let`s start with known keys");
+        // if we know some key
+        System.out.println("key = [my favourite jeans]" + trousersMap.get("my favourite jeans"));
+        System.out.println("no key = [stupid key]" + trousersMap.get("stupid key"));
+
+        System.out.println("Let`s iterate the map");
+        for ( Map.Entry<String, Trousers> item: trousersMap.entrySet()){
+            System.out.println("Key: " + item.getKey());
+            System.out.println("Value: " + item.getValue());
+
+        }
 
     }
 }
