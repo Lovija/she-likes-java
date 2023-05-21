@@ -23,6 +23,10 @@ public class ListSecondExample {
         printNames(names);
         System.out.println("----------------------");
         printOnlySomeNames(names);
+        System.out.println("-----------------------");
+        printNamesInOneLine(names);
+        System.out.println("-----------------------");
+        printNamesWithSemicolon(names);
     }
 
     public static void printNames(List<String>names) {
@@ -39,4 +43,18 @@ public class ListSecondExample {
         }
 
     }
+    public static void printNamesInOneLine(List<String>names){
+        for ( int i = 0; i< names.size(); i++);
+       System.out.println("The names are: " + names);
+
+    }
+    //name1, name2, name3
+//public static void  printNamesWithSemicolon (List<String>names){
+    // String result = names.get(0);
+     // for ( int i = 0; i < names.size(); i++);{
+     //     result += "; " + names.get(i);
+     // }
+      //System.out.println(result);
+
+ // }
 }
