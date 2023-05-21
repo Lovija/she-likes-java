@@ -22,6 +22,7 @@ public class EnglishLatvianDictionary {
         String latvianTranslation = dictionary.get(englishWord);
         if (latvianTranslation != null){
             System.out.printf("English word: [%s] means [%s] in Latvian. ", englishWord,latvianTranslation);
+            System.out.println("English word: [" + englishWord + "] means [" + latvianTranslation+ "] in Latvian");
         }
         else {
             System.out.printf("Don`t know hot to translate [%s] into Latvian. ", englishWord);

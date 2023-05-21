@@ -9,6 +9,6 @@ public class Main {
         System.out.println("Enter an English word to translate: ");
         String englishWord = scanner.nextLine();
         String latvianWord = secondDictionary.translate(englishWord);
-        System.out.println("The LAtvian translation is: " + latvianWord);
+        System.out.println("The Latvian translation is: " + latvianWord);
     }
 }
